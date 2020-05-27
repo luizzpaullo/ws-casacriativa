@@ -46,7 +46,7 @@ db.serialize(function(){
  */
 /* ==========================================================*/
     //Delete
-/*     db.run(`DELETE FROM ideas WHERE id = ?`,[1], function(err){
+ /*    db.run(`DELETE FROM ideas WHERE id = ?`,[10], function(err){
         if (err) return console.log(err)
 
         console.log("Registro Deletado com Sucesso!", this)
@@ -58,10 +58,10 @@ db.serialize(function(){
         if (err) return console.log(err)
 
         console.log(rows)
-    }) */
+    })
 
 
-
-})
+ */
+}) 
 
 module.exports = db 
